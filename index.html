@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate | Link</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form class="form" id="referralForm">
+        <div class="title">Welcome,<br><span>Join referral contest</span></div>
+        <input class="input" name="username" id="username" placeholder="Username" type="text" required>
+        <input class="input" name="number" id="number" placeholder="Phone number" type="number" required>
+        <input class="input" name="link" id="link" placeholder="Your Link" type="text" readonly onclick="copyLink()">
+        <button class="button-confirm" type="button" onclick="generateWhatsAppLink()">Generate Link</button>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
